@@ -6,6 +6,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html, body{
+    overflow-x: hidden;
+}
+
 .container{
     width: 80%;
     margin-inline: auto;
@@ -205,6 +209,10 @@ header svg{
 
 .proyek-box .proyek-desc{
     margin-top: 20px;
+}
+
+.proyek-box .box:only-child{
+    grid-column: 1 / -1;
 }
 
 .proyek-box .proyek-desc p{
